@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    background: url(images/background.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo{
+    width: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.navbar{
+    width: 85%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button{
+    color: rgb(0, 132, 255);
+    font-weight: bold;
+    padding: 10px 25px;
+    background: transparent;
+    border: 2px solid #000;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    color: rgb(0, 132, 255);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+    z-index: 2;
+}
+h1{
+    line-height: 80px;
+    font-size: 70px;
+    margin: 20px 0 30px;
+
+}
+.side_bar{
+    width: 40px;
+    height: 100vh;
+    background:transparent;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.menu{
+    display: block;
+    width: 25px;
+    margin: 40px auto 0;
+    cursor: pointer;
+}
+.social_links img, .useful_links img{
+    width: 30px;
+    margin: 5px auto;
+    cursor: pointer;
+    border-radius: 30px;
+    
+}
+.social_links{
+    padding: 7px;
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.useful_links{
+    padding: 7px;
+    width: 30px;
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+}
+
+.bubbles{
+    position:absolute ;
+    right: 0;
+    width: 100vw;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+.bubbles a{
+ text-decoration: none;
+ color: orangered;
+}
+.bubbles h3{
+    animation: liquid;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    
+}
+@keyframes liquid{
+    from{
+        transform: translateX(100vw);
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    96%{
+        opacity: 1;
+    }to{
+        transform: translateX(-10vw);
+        opacity: 0;
+    }
+}
