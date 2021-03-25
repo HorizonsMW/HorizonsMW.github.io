@@ -1,0 +1,49 @@
+body{
+    background: url(images/background.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow-y: hidden;
+
+}.tour_content{
+    width: 60vw;
+    height: auto;
+    color: rgb(0, 132, 255);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.tour{
+    margin: 20px 20px 0 20px;
+
+}
+.cards{
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    width: 80vw;
+    margin: 10px;
+    border-radius: 10px;
+    height: 60%;
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+    white-space: wrap;  
+
+}
+.card{
+    line-height: 20px;
+    width: 70vw ;
+    height: auto;
+  margin-bottom: 20px;
+    color: #0084ff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+}
+.card h2{
+    color: orangered;
+}
+
