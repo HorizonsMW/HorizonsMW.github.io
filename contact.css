@@ -32,7 +32,7 @@ body{
 
 }
 .card{
-    line-height: 20px;
+    line-height: 30px;
     width: 70vw ;
     height: 80%;
   margin-bottom: 20px;
@@ -40,8 +40,17 @@ body{
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 20px;
+    
 }
 .card h2{
     color: orangered;
 }
+.card a{
+    text-decoration: none;
+}
+.card ul li,a{
+    list-style: square;
+    color: whitesmoke;
+}
+
 
