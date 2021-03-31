@@ -34,16 +34,18 @@ body{
 
 }
 .card{
-    line-height: 20px;
+    line-height: 25px;
     width: 70vw ;
     height: auto;
   margin-bottom: 20px;
     color: #0084ff;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
     padding: 20px;
     border-radius: 20px;
 }
 .card h2{
     color: orangered;
+}.card a{
+    text-decoration: none;
 }
 
