@@ -1,0 +1,10 @@
+.content{
+    position: absolute;
+    top: 10%;
+    margin: 0 10% 0 10%;
+    color: rgb(0, 132, 255);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+    z-index: 2;
+}
