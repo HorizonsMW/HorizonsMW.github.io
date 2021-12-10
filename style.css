@@ -102,6 +102,7 @@ h1{
     position:fixed;
     right: 0;
     bottom: 0;
+    color: rgb(0, 132, 255);
     left: 0;
     width: 100vw;
     background: rgba(0, 0, 0, 0.7);
