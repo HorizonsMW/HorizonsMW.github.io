@@ -1,12 +1,12 @@
 body{
-    background: url(images/background.jpg);
     width: 100%;
     background-size: cover;
     background-position: center;
     position: relative;
     overflow-y: hidden;
 
-}.tour_content{
+}
+.tour_content{
     width: 60vw;
     height: auto;
     color: rgb(0, 132, 255);

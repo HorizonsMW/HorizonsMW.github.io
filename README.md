@@ -1,7 +1,7 @@
 # HorizonsMW.github.io
 Brian Mulwa
 email: mw711990838@gmail.com
-Hello world. Sounds amazing haha. Welcome to my creative designs studio for web apps and web sites
+Hello world. Sounds amazing haha. Welcome to my creative designs studio for web apps, web sites, android apps (coming soon) and custom operating systems (windows 10 and windows 11). Enjoy.
 
 I'D been waiting to do this for so long. 
 Finally here I am.
