@@ -1,3 +1,13 @@
+@media (max-width: 980px) and (orientation: portrait){
+
+    .cards{
+        font-size: 200%;
+    }
+    .cards .card h2, ul li, a{
+        padding: 10px;
+        margin: 10px;
+    }
+}
 body{
     width: 100%;
     background-size: cover;
@@ -35,7 +45,7 @@ body{
     line-height: 30px;
     width: 70vw ;
     height: 80%;
-  margin-bottom: 20px;
+    margin-bottom: 20px;
     color: #0084ff;
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
