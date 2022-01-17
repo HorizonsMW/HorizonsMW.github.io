@@ -1,16 +1,22 @@
-@media screen and (orientation: portrait) {
+@media (max-width: 980px) and (orientation: portrait) and (min-height:1000px){
+                    
+                .card{
+                    font-size: 150%;
+                }
+                .card h2{
+                    text-align: center;
+                    
+                }
 
-    
-}
+                .specs{
+                    padding: 20px 50px 0 50px;
+                    width: 90%;
+                
+                }
+                .specs  .th{
+                    text-align: center;   
+                }
 
-
-body{
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    overflow-y: hidden;
-    
 }
 .hero_windows{
     background: url(Windows_11_Pantone_Dark.jpg);
@@ -21,18 +27,35 @@ body{
     position: relative;
     overflow: hidden;
 }
-
-.card{
+.cards{
     position: absolute;
-    left: 10%;
-    right: 10%;
+    top: 25%;
+    left: 8%;
+    width: 80vw;
+    margin: 10px;
+    border-radius: 10px;
+    height: 60%;
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+    white-space: wrap;  
+
+}
+.card{
     line-height: 25px;
     width: 70vw ;
     height: auto;
     margin-bottom: 20px;
-    top: 10%;
-    color: #ABABD0;
+    color: #9B9CCC;
     background: rgba(0, 0, 0, 0.7);
     padding: 20px;
     border-radius: 20px;
+}
+.card h2{
+    text-align: center;
+}
+
+.card .specs{
+    width: 100%;
+    margin-top: 20px;
 }
