@@ -29,12 +29,12 @@
 }
 .cards{
     position: absolute;
-    top: 25%;
+    top: 5%;
     left: 8%;
     width: 80vw;
     margin: 10px;
     border-radius: 10px;
-    height: 60%;
+    height: 90%;
 
     overflow-y: scroll;
     overflow-x: hidden;
@@ -58,4 +58,58 @@
 .card .specs{
     width: 100%;
     margin-top: 20px;
+}
+
+.card img{
+    width: 80%;
+}
+.card ol{
+   width: 100%;
+}
+
+.download_screenshot{
+    left: 10px;
+    position: relative;
+   top: 200px;
+}
+.download_screenshot a{
+    background-color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+    color: salmon;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@keyframes button_animation{
+    from{
+        background: #9B9CCC;
+        color: blue;
+    }
+    10%{
+      
+    }
+    96%{
+      
+    }to{
+      background: transparent;
+    }
+}
+button{
+    color: #9B9CCC;
+    font-weight: bold;
+    padding: 10px 25px;
+    background: transparent;
+    border: 2px solid #000;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+
+    animation: button_animation;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    animation-timing-function: linear;
 }
