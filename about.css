@@ -14,7 +14,6 @@
 @keyframes slide_down{
     from{
         height: 300%;
-        background: #0084ff;
         top: -50%;
     }
     to{
