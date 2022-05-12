@@ -53,6 +53,7 @@
     background: rgba(0, 0, 0, 0.7);
     padding: 20px;
     animation: card_slide_down 2s; 
+    text-align: center;
     border-radius: 20px;
 }
 .card h2{
@@ -70,4 +71,17 @@
     margin-top: 10px;
     height: 200px;
     border-radius: 50%;
+}
+.profile_cv{
+    margin-top: 10px;
+    animation: card_slide_down 2s; 
+    color: #000000;
+    background-color: rgba(200, 228, 255, 0.7); 
+    border-radius: 15px;
+    overflow: hidden;
+}
+.cv_header{
+   padding: 5px;
+    background-color: #000000;
+    color:  rgba(200, 228, 255, 0.7);
 }

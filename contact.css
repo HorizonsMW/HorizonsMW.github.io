@@ -44,6 +44,7 @@ body{
 .card{
     line-height: 30px;
     width: 70vw ;
+    text-align: center;
     height: 80%;
     margin-bottom: 20px;
     color: #0084ff;
