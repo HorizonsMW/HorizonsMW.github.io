@@ -1,0 +1,457 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+@media (max-width: 980px) and (orientation: portrait) and (min-height:1000px) {
+  .navbar {
+    width: 85%;
+    height: 8%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 980px) and (orientation: portrait) and (min-height:1000px) {
+  .hero {
+    background: url(images/background.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 980px) and (orientation: portrait) and (min-height:1000px) {
+  .logo h2 {
+    font-size: 200%;
+  }
+}
+
+@media (max-width: 980px) and (orientation: portrait) and (min-height:1000px) {
+  .navbar {
+    width: 85%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 980px) and (orientation: portrait) and (min-height:1000px) {
+  .navbar button {
+    font-size: 200%;
+    border: 5px solid #000;
+  }
+}
+
+@media (max-width: 980px) and (orientation: portrait) and (min-height:1000px) {
+  .content h3 {
+    font-size: 300%;
+  }
+}
+
+@media (max-width: 980px) and (orientation: portrait) and (min-height:1000px) {
+  .content button {
+    font-size: 200%;
+    border: 5px solid #000;
+  }
+}
+
+@media (max-width: 980px) and (orientation: portrait) and (min-height:1000px) {
+  .hero .side_bar {
+    size: 200%;
+    margin-right: 20px;
+    width: auto;
+  }
+}
+
+@media (max-width: 980px) and (orientation: portrait) and (min-height:1000px) {
+  .menu {
+    display: block;
+    width: 50px;
+    margin: 10px auto 0;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 980px) and (orientation: portrait) and (min-height:1000px) {
+  .hero .side_bar img {
+    width: 70px;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 980px) and (orientation: portrait) and (min-height:1000px) {
+  .hero .side_bar .useful_links {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 980px) and (orientation: portrait) and (min-height:1000px) {
+  .hero .bubbles {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    color: rgb(0, 132, 255);
+    left: 0;
+    width: 100vw;
+    background: rgba(17, 38, 77, 0.7);
+    padding: 10px;
+    font-size: 150%;
+  }
+}
+
+@media (max-width: 980px) and (orientation: portrait) and (min-height:1000px) {
+  .bubbles a {
+    text-decoration: none;
+    color: orangered;
+  }
+}
+
+@media (max-width: 980px) and (orientation: portrait) and (min-height:1000px) {
+  .bubbles h3 {
+    animation: liquid;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+  }
+}
+
+@keyframes liquid {
+  from {
+    transform: translateX(40vw);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  96% {
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-10vw);
+    opacity: 0;
+  }
+}
+
+@media (max-width: 980px) and (orientation: portrait) and (min-height:1000px) {
+  .hero .side_menu {
+    display: none;
+    height: auto;
+    width: 50%;
+    position: absolute;
+    z-index: 4;
+    top: 7%;
+    right: 3%;
+    background-color: rgba(241, 235, 235, 0.7);
+    overflow-x: hidden;
+    padding-top: 60px;
+    border-radius: 30px;
+  }
+}
+
+@media (max-width: 980px) and (orientation: portrait) and (min-height:1000px) {
+  .hero .side_menu a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    font-size: 60px;
+    color: rgb(0, 132, 255);
+    display: block;
+  }
+}
+
+@media (max-width: 980px) and (orientation: portrait) and (min-height:1000px) {
+  .side_menu a:hover {
+    color: orangered;
+  }
+}
+
+@media (max-width: 980px) and (orientation: portrait) and (min-height:1000px) {
+  .side_menu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 980px) and (orientation: portrait) and (min-height:1000px) {
+  .direction {
+    width: 80vw;
+    padding: 0 10% 0 10%;
+    display: flex;
+    font-size: 200%;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 980px) and (orientation: portrait) and (min-height:1000px) {
+  .direction img {
+    width: 50px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (orientation: portrait), (hover: none) {
+  button {
+    color: rgb(0, 132, 255);
+    font-weight: bold;
+    padding: 10px 25px;
+    background: transparent;
+    border: 2px solid #000;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (orientation: portrait), (hover: none) {
+  .logo {
+    width: auto;
+  }
+}
+
+.hero {
+  background: url(images/background.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.default_background {
+  background: linear-gradient(150deg,#9C654E,#2B1D1C 50%);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 0;
+}
+
+.logo {
+  width: 150px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.navbar {
+  width: 85%;
+  height: 15%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  color: rgb(0, 132, 255);
+  font-weight: bold;
+  padding: 10px 25px;
+  background: transparent;
+  border: 2px solid #000;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+  color: rgb(0, 132, 255);
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+h1 {
+  line-height: 80px;
+  font-size: 70px;
+  margin: 20px 0 30px;
+}
+
+.side_bar {
+  width: 60px;
+  height: 100vh;
+  background: transparent;
+  padding: 5px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.menu {
+  display: block;
+  width: 50px;
+  margin: 10px auto 0;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.side_bar img {
+  width: 40px;
+  margin: 5px auto;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.social_links img, .useful_links img {
+  width: 50px;
+  margin: 5px auto;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.social_links {
+  width: 50px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.useful_links {
+  width: 50px;
+  position: absolute;
+  bottom: 30px;
+  text-align: center;
+}
+
+.bubbles {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  color: rgb(0, 132, 255);
+  left: 0;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+
+.bubbles a {
+  text-decoration: none;
+  color: orangered;
+}
+
+.bubbles h3 {
+  animation: liquid;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: linear;
+}
+
+@keyframes liquid {
+  from {
+    transform: translateX(40vw);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  96% {
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-10vw);
+    opacity: 0;
+  }
+}
+
+.side_menu {
+  display: none;
+  height: auto;
+  width: 250px;
+  position: absolute;
+  z-index: 4;
+  top: 7%;
+  right: 3%;
+  background-color: rgba(241, 235, 235, 0.7);
+  overflow-x: hidden;
+  padding-top: 60px;
+  border-radius: 10px;
+}
+
+.side_menu a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(0, 132, 255);
+  display: block;
+}
+
+.side_menu a:hover {
+  color: orangered;
+}
+
+.side_menu .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.direction {
+  width: 80vw;
+  padding: 0 10% 0 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 10px;
+}
+
+.direction img {
+  width: 50px;
+  cursor: pointer;
+}
+
+body {
+}
+
+.card {
+}
+
+html {
+}
+
