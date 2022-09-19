@@ -3,30 +3,35 @@
     <head>
         <title>B Mulwa Designs</title>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
-        <link rel="shortcut icon" type="image/x-icon" href="www.stackoverflow.com/favicon.ico" />
+        <link rel="stylesheet" href="tour.css">
     </head>
     <body>
       
         <div class="hero">
             <div class="navbar">
                 <div class="logo">
-                    <h2>Brian Mulwa</h2>
+                    <h2 class="text-light">Brian Mulwa</h2>
                 </div>
                 <a href="products.html"><button type="button">PRODUCTS</button></a>
             </div>
             <center>
                 <div class="direction">
-                    <h2>Your are here: Home</h2>
+                    <h3>Your are here: <span id="location">Home</span></h3>
+                    <img src="images/down2_100px.png" alt="scroll down">
                 </div>
             </center>
-            <div class="content">
+
+            <!--Home content//////////////////////////////////////-->
+            <div class="content" id="homeContent">
                 <h3>Welcome to our</h3>
                 <h1>World's <br> Creative Studio</h1>
                 
-                <a href="tour.html"><button type="button">Take a Tour</button></a>
-                <a href="about.html"><button type="button">About</button></a>
-                </div>
+                <a href="#"><button type="button" onclick="tour()">Take a Tour</button></a>
+                <a href="#"><button type="button">About</button></a>
+            </div>
+            <!--/////////////////////////////////////////////////-->
 
             <div class="side_bar">
                     <img src="images/menu_filled_100px.png" class="menu" alt="menu" onclick="openNav()">
@@ -40,8 +45,8 @@
                     </div>
 
                     <div class="bubbles">
-                        <h3>Brian Mulwa Tel: +254711990838 or <a href="mailto:mw711990838@gmail.com">Reach me via Email </a>or click on the top right menu for more Information
-                        </h3>
+                        <p>Brian Mulwa Tel: +254711990838 or <a href="mailto:mw711990838@gmail.com">Reach me via Email </a>or click on the top right menu for more Information
+                        </p>
                     </div>
             </div>
             <div id="menu" class="side_menu">
@@ -49,10 +54,69 @@
                 <a href="about.html">About</a>
                 <a href="#">Services</a>
                 <a href="contact.html">Contact</a>
-              </div>
+            </div>
 
         </div>
         <div class="default_background"></div>
+
+        <!--//////////////////////////////////////////////////////////////////-->
+        <div class="cards" id="tourCards">  
+            <div class="row d-flex">
+                <div class="col m-4">
+                    <a><button onclick="home()">Back</button></a>
+                </div>
+                <div class="col m-4 m-auto">
+                    <div class="row">
+                        <a class=" align-content-end"><button onclick="about()">About</button></a>
+                    </div>
+                </div>                
+            </div>
+            <div class="card">
+                <a href="http://" target="_blank" rel="noopener noreferrer"><h2>Why this?</h2></a>
+                <p style="color: rgb(202, 189, 171);"><strong>
+                Disclaimer:
+                This is just a "sidenote" kind of project that I do to occupy myself. It helps me
+                "vent" my otherwise would-be-wasted bored time, and I get to think too. I know you're like, "What would I be thinking about..." Well, I'm not
+                going to tell you any of that, that's between me and the dark room at the back of my head holding the
+                thoughts. Ok, enough about me, I love writing, I could go on forever.</strong>
+                </p>
+            </div>
+            <div class="card">
+                <a href="http://" target="_blank" rel="noopener noreferrer"><h2>The point of all these?</h2></a>
+                <p style="color: rgb(136, 176, 209);">
+                    Well, besides venting and all that, I do this to stay "hydrated" with html and for marketing. Personally, I think basic
+                    web designing skills are essential for any computing student, like, say ironing to a tailor: you get
+                    the point. At the time of writing, I actually didn't know the difference between "taylor" and "tailor."
+                    Little pointless easter egg but why not put it here. When I was starting this I actually did not know
+                    how far I was going to take it. So far, I like it. It isn't much, but I'm proud of it.
+                    <br>
+                    Ok, back to marketing, I'm an "IT Guy" so <a href="contact.html" rel="noopener noreferrer" target="_blank">hit me up</a> if you need a fix.
+                    
+                </p>
+            </div>
+            <div class="card">
+                <a href="http://" target="_blank" rel="noopener noreferrer"><h2>Where dpoes it come from?</h2></a>
+                <p>
+                    Contrary to popular belief, Lorem Ipsum is not simply random text.
+                    It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                    Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
+                    looked up one of the more obscure Latin words, consectetur,
+                    from a Lorem Ipsum passage, and going through the cites of the word in classical literature,
+                    discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
+                    (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics,
+                    very popular during the Renaissance.
+                    The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+                    Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form,
+                    accompanied by English versions from the 1914 translation by H. Rackham.  
+                </p>
+
+            </div>
+            <div class="card">
+               Content...
+            </div>
+        </div>
+        <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
    
         <script>
@@ -63,6 +127,20 @@
             function closeNav() {
                 document.getElementById("menu").style.display = "none";
             }
-            </script>
+
+            function tour(){
+                document.getElementById("tourCards").style.display = "block";
+                document.getElementById("homeContent").style.display = "none";
+                console.log("tour")
+                document.getElementById("location").innerHTML = "Tour";
+            }
+            function home(){
+                document.getElementById("tourCards").style.display = "none";
+                document.getElementById("homeContent").style.display = "block";
+                document.getElementById("location").innerHTML = "Home";
+
+                console.log("Home")
+            }
+        </script>
     </body>
 </html>

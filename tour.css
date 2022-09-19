@@ -33,17 +33,18 @@ body{
 }
 .cards{
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 8%;
     width: 80vw;
     margin: 10px;
     border-radius: 10px;
     height: 60%;
-
     overflow-y: scroll;
     overflow-x: hidden;
     white-space: wrap;  
     animation: slide_down 1s;
+    display: none;
+    z-index: 2;
 
 }
 @keyframes card_slide_down{
@@ -58,7 +59,7 @@ body{
     line-height: 25px;
     width: 70vw ;
     height: auto;
-     margin-bottom: 20px;
+    margin-bottom: 20px;
     color: #0084ff;
     background: rgba(0, 0, 0, 0.7);
     padding: 20px;
