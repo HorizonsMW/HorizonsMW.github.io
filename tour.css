@@ -25,30 +25,30 @@ body{
     from{
         height: 300%;
         top: -50%;
+        z-index: 2;
     }
     to{
        height: auto;
-       height:87% ;
        top: 25%;
+       z-index: 2;
     }
 }
 .cards{
     position: absolute;
-    top: 20%;
+    top: 22%;
     left: 8%;
     width: 80vw;
     margin: 10px;
     border-radius: 10px;
     height: auto;
-    bottom: 5%;
+    bottom: 7%;
     overflow-y: scroll;
     overflow-x: hidden;
-    white-space: wrap;  
+    white-space: wrap;
     animation: slide_down 1s;
     display: none;
     z-index: 2;
-    font-size: 17px;
-
+    font-size: 18px;
 }
 @keyframes card_slide_down{
     from{
@@ -59,14 +59,14 @@ body{
     }
 }
 .card{
-    width: 70vw ;
+    width: 75vw;
     height: auto;
     margin-bottom: 20px;
     color: #0084ff;
     background: rgba(0, 0, 0, 0.7);
     padding: 20px;
     border-radius: 20px;
-    animation: card_slide_down 2s; 
+    animation: card_slide_down 2s;
 }
 .card h2{
     color: orangered;

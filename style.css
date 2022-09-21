@@ -33,6 +33,7 @@
        .navbar button{
            font-size: 100%;
            border: 5px solid #000;
+           margin-right: 25px;
         }
         .content h3{
            font-size: 300%;
@@ -54,11 +55,11 @@
             cursor: pointer;
         }
         .hero .side_bar img{
-            width: 70px;
+            width: 60px;
             margin: auto;
             cursor: pointer;
             border-radius: 10px;
-
+            margin-top: 72px;
         } .hero .side_bar .useful_links{
             margin-bottom: 60px;
 
@@ -73,6 +74,7 @@
             background: rgba(17, 38, 77, 0.7);
             padding: 10px;
             font-size: 100%;
+            z-index: 3;
         }
         .bubbles a{
         text-decoration: none;
@@ -118,7 +120,7 @@
             border-radius: 30px;
         }
 
-       .hero .side_menu a {
+       .side_menu a {
             padding: 8px 8px 8px 32px;
             text-decoration: none;
             font-size: 25px;
@@ -202,7 +204,7 @@
 }
 .navbar{
     width: 85%;
-    height: 15%;
+    height: 10%;
     margin: auto;
     display: flex;
     align-items: center;
@@ -217,7 +219,7 @@ button{
     border-radius: 20px;
     outline: none;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 17px;
 }
 .content{
     position: absolute;
@@ -290,6 +292,7 @@ h1{
     width: 100vw;
     background: rgba(0, 0, 0, 0.7);
     font-size: 15px;
+    z-index: 3;
 }
 .bubbles a{
  text-decoration: none;
@@ -338,7 +341,7 @@ h1{
 .side_menu a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 215%;
+    font-size: 100%;
     color: rgb(0, 132, 255);
     display: block;
 }
@@ -374,5 +377,27 @@ h1{
 }
 .direction img{
     width: 50px;
+    cursor: pointer;
+}
+.default-text-color-p{
+    color: rgb(136, 176, 209);
+}
+.color-blue{
+    color: rgb(0, 132, 255);
+}
+.color-orangered{
+    color: orangered;
+}
+
+.profile{
+    overflow: hidden;
+    text-align: center;
+}
+.profile img{
+    margin-top: 10px;
+    height: 200px;
+    border-radius: 50%;
+}
+.cursor-pointer{
     cursor: pointer;
 }
