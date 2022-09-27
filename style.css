@@ -40,7 +40,7 @@
         }
         .content button{
             font-size:100%;
-            border: 5px solid #000;
+            border: 5px solid rgb(0, 91, 86);
         }
         .hero .side_bar{
             size: 200%;
@@ -165,7 +165,7 @@
         font-weight: bold;
         padding: 10px 25px;
         background: transparent;
-        border: 2px solid #000;
+        border: 2px solid rgb(0, 91, 86);
         border-radius: 20px;
         outline: none;
         cursor: pointer;
