@@ -401,3 +401,6 @@ h1{
 .cursor-pointer{
     cursor: pointer;
 }
+iframe{
+    background: #dbdbdb;
+}
