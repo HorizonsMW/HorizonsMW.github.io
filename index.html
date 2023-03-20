@@ -1,672 +1,737 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>B Mulwa Designs</title>
-        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-        <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="tour.css">
-    </head>
-    <body>
-        <div class="hero">
-            <div class="navbar">
-                <div class="logo">
-                    <h2 class="text-light">Brian Mulwa</h2>
-                </div>
-                <a><button type="button" onclick="products()">PRODUCTS</button></a>
+
+<head>
+    <title>B Mulwa Designs</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tour.css">
+</head>
+
+<body>
+    <div class="hero">
+        <div class="navbar">
+            <div class="logo">
+                <h2 class="text-light">Brian Mulwa</h2>
             </div>
-            <center>
-                <div class="direction">
-                    <h3>Your are here: <span id="location" class="h3">Home</span></h3>
-                    <img src="images/down2_100px.png" alt="scroll down">
-                </div>
-            </center>
-
-            <!--Home content//////////////////////////////////////-->
-            <div class="content" id="homeContent">
-                <h3>Welcome to our</h3>
-                <h1>World's <br> Creative Studio</h1>
-                
-                <a href="#"><button type="button" onclick="tour()">Take a Tour</button></a>
-                <a href="#"><button type="button" onclick="about()">About</button></a>
+            <a><button type="button" onclick="products()">PRODUCTS</button></a>
+        </div>
+        <center>
+            <div class="direction">
+                <h3>Your are here: <span id="location" class="h3">Home</span></h3>
+                <img src="images/down2_100px.png" alt="scroll down">
             </div>
-            <!--/////////////////////////////////////////////////-->
+        </center>
 
-            <div class="side_bar">
-                    <img src="images/menu_filled_100px.png" class="menu" alt="menu" onclick="openNav()">
-                    <div class="social_links">
-                        <a href="https://twitter.com/marcobrayan4?s=09" class="twitter"target="_blank" rel="noopener noreferrer"><img src="images/twitter_100px.png" alt="twitter"></a>
-                        <a href="https://github.com/HorizonsMW/HorizonsMW.github.io" target="_blank" rel="noopener noreferrer"><img src="images/github_100px.png" alt="github"></a> 
-                    </div>
-                    <div class="useful_links">
-                        <a href=""  rel="noopener noreferrer"><img src="images/share_3_filled_100px.png" alt="Share"></a>
-                        <a target="_blank" href="mailto:mw711990838@gmail.com"><img src="images/help_100px.png" alt="help"></a>
-                    </div>
+        <!--Home content//////////////////////////////////////-->
+        <div class="content" id="homeContent">
+            <h3>Welcome to our</h3>
+            <h1>World's <br> Creative Studio</h1>
 
-                    <div class="bubbles">
-                        <p>Brian Mulwa Tel: +254711990838 or <a href="mailto:mw711990838@gmail.com">Reach me via Email </a>or click on the top right menu for more Information
+            <a href="#"><button type="button" onclick="tour()">Take a Tour</button></a>
+            <a href="#"><button type="button" onclick="about()">About</button></a>
+        </div>
+        <!--/////////////////////////////////////////////////-->
+
+        <div class="side_bar">
+            <img src="images/menu_filled_100px.png" class="menu" alt="menu" onclick="openNav()">
+            <div class="social_links">
+                <a href="https://twitter.com/marcobrayan4?s=09" class="twitter" target="_blank"
+                    rel="noopener noreferrer"><img src="images/twitter_100px.png" alt="twitter"></a>
+                <a href="https://github.com/HorizonsMW/HorizonsMW.github.io" target="_blank"
+                    rel="noopener noreferrer"><img src="images/github_100px.png" alt="github"></a>
+            </div>
+            <div class="useful_links">
+                <a href="" rel="noopener noreferrer"><img src="images/share_3_filled_100px.png" alt="Share"></a>
+                <a target="_blank" href="mailto:mw711990838@gmail.com"><img src="images/help_100px.png" alt="help"></a>
+            </div>
+
+            <div class="bubbles">
+                <p>Brian Mulwa Tel: +254711990838 or <a href="mailto:mw711990838@gmail.com">Reach me via Email </a>or
+                    click on the top right menu for more Information
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="default_background"></div>
+    <div id="menu" class="side_menu w-50">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a onclick="home()">Home</a>
+        <a onclick="about()">About</a>
+        <a onclick="tour()">Tour</a>
+        <a onclick="services()">Services</a>
+        <a onclick="contact()">Contact</a>
+    </div>
+
+    <!--/////////////////////////////////TOUR/////////////////////////////////-->
+    <section>
+        <div class="cards" id="tourCards">
+            <div class="card">
+                <a>
+                    <h2>Why this?</h2>
+                </a>
+                <p style="color: rgb(202, 189, 171);"><strong>
+                        Disclaimer:
+                        This is just a "sidenote" kind of project that I do to occupy myself. It helps me
+                        "vent" my otherwise would-be-wasted bored time, and I get to think too. I love writing, I could
+                        go on forever.</strong>
+                </p>
+            </div>
+            <div class="card">
+                <h2>The point of all these?</h2>
+                <p style="color: #89b1d1;">
+                    Well, besides venting and all that, I do this to stay "hydrated" with front-end design and for
+                    marketing. Personally, I think basic
+                    web designing skills are essential for any computing student, like, say ironing to a tailor: you get
+                    the point. At the time of writing, I actually didn't know the difference between "taylor" and
+                    "tailor."
+                    Little pointless easter egg but why not put it here. When I was starting this I actually did not
+                    know
+                    how far I was going to take it. So far, I like it. It isn't much, but I'm proud of it.
+                    <br>
+                    Ok, back to marketing, I'm an "IT Guy" so <span onclick="contact()"
+                        class="cursor-pointer color-orangered">hit me up</span> if you need a fix.
+
+                </p>
+            </div>
+            <div class="card">
+                <h2 class="">Where does it come from?</h2>
+                <p>
+                    Contrary to popular belief, Lorem Ipsum is not simply random text.
+                    It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                    Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
+                    looked up one of the more obscure Latin words, consectetur,
+                    from a Lorem Ipsum passage, and going through the cites of the word in classical literature,
+                    discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de
+                    Finibus Bonorum et Malorum"
+                    (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory
+                    of ethics,
+                    very popular during the Renaissance.
+                    The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+                    Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in
+                    their exact original form,
+                    accompanied by English versions from the 1914 translation by H. Rackham.
+                </p>
+
+            </div>
+            <div class="card">
+                Content...
+            </div>
+        </div>
+    </section>
+
+    <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+    <!--/////////////////////////////////ABOUT///////////////////////////////////////////////////////////////-->
+    <section>
+        <div class="cards" id="aboutCards">
+            <!--/////////////////////Profile picture///////////////////////////////////-->
+            <div class="card">
+                <div class="card-body">
+                    <div class="row d-sm-inline-flex">
+                        <div class="col profile">
+                            <img src="./images/profile_image.jpg" alt="profile image">
+                            <h2 style="color: rgb(202, 189, 171);">Brian Mulwa</h2>
+                            <p>UX/UI Designer, ICT Technician, Computer Software Specialist and Programmer</p>
+                        </div>
+                        <div class="col text-light text-center rounded-3 offset-1 w-auto">
+                            <div class="text-light bg-light" data-iframe-width="150" data-iframe-height="270"
+                                data-share-badge-id="99b18d80-3ee0-4616-93c4-b7157550d8cc"
+                                data-share-badge-host="https://www.credly.com">
+                                <div class="bg-light bg-opacity-50">
+
+                                </div>
+                            </div>
+                            <script type="text/javascript" async
+                                src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--///////////////////Professional Summary////////////////////////////////-->
+            <div class="card">
+                <a>
+                    <h2>Professional Summary</h2>
+                </a>
+                <p style="color: rgb(202, 189, 171);">
+                    Innovative Technician with a proven track record of identifying performance issues and
+                    making updates to achieve optimal performance. Adept in collaborating with colleagues
+                    to ensure product quality and improvements. Extensive background in:
+                <ul style="color: rgb(202, 189, 171);">
+                    <li>Mobile and web applications development,</li>
+                    <li>Operating systems deployment,</li>
+                    <li>Network design and implementation,</li>
+                    <li>ICT equipment repair and maintenance, along with CyberSecurity</li>
+                </ul>
+                <p style="color: rgb(202, 189, 171);"> Experienced Web Developer, bringing forth expertise in front end
+                    design, development,
+                    testing and maintenance of web systems. Proficient in an assortment of technologies,
+                    including Java, JavaScript, HTML, CSS, Markdown, MongoDB, and SQL Server and
+                    Adobe set of applications. Experienced in leading teams to evaluate system functioning
+                    and remain forward-thinking in design and deployment. Committed to achieving optimal
+                    results, and successful completion of projects.
+                </p>
+            </div>
+            <!--//////////////////////Work History/////////////////////////////-->
+            <div class="card">
+                <h2>Work History</h2>
+                <!---------------------------------->
+                <div class="row d-sm-inline-block">
+                    <div class="col w-auto">
+                        <p>
+                            2022-09 - 2022-12
                         </p>
                     </div>
-            </div>
-
-        </div>
-        <div class="default_background"></div>
-        <div id="menu" class="side_menu w-50">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a onclick="home()">Home</a>
-            <a onclick="about()">About</a>
-            <a onclick="tour()">Tour</a>
-            <a onclick="services()">Services</a>
-            <a onclick="contact()">Contact</a>
-        </div>
-
-        <!--/////////////////////////////////TOUR/////////////////////////////////-->
-        <section>
-            <div class="cards" id="tourCards">
-                <div class="card">
-                    <a><h2>Why this?</h2></a>
-                    <p style="color: rgb(202, 189, 171);"><strong>
-                    Disclaimer:
-                    This is just a "sidenote" kind of project that I do to occupy myself. It helps me
-                    "vent" my otherwise would-be-wasted bored time, and I get to think too. I love writing, I could go on forever.</strong>
-                    </p>
-                </div>
-                <div class="card">
-                    <h2>The point of all these?</h2>
-                    <p style="color: rgb(136, 176, 209);">
-                        Well, besides venting and all that, I do this to stay "hydrated" with front-end design and for marketing. Personally, I think basic
-                        web designing skills are essential for any computing student, like, say ironing to a tailor: you get
-                        the point. At the time of writing, I actually didn't know the difference between "taylor" and "tailor."
-                        Little pointless easter egg but why not put it here. When I was starting this I actually did not know
-                        how far I was going to take it. So far, I like it. It isn't much, but I'm proud of it.
-                        <br>
-                        Ok, back to marketing, I'm an "IT Guy" so <span onclick="contact()" class="cursor-pointer color-orangered">hit me up</span> if you need a fix.
-                        
-                    </p>
-                </div>
-                <div class="card">
-                    <h2 class="">Where does it come from?</h2>
-                    <p>
-                        Contrary to popular belief, Lorem Ipsum is not simply random text.
-                        It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
-                        Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-                        looked up one of the more obscure Latin words, consectetur,
-                        from a Lorem Ipsum passage, and going through the cites of the word in classical literature,
-                        discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
-                        (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics,
-                        very popular during the Renaissance.
-                        The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-                        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
-                        Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form,
-                        accompanied by English versions from the 1914 translation by H. Rackham.  
-                    </p>
-    
-                </div>
-                <div class="card">
-                   Content...
-                </div>
-            </div>
-        </section>
-       
-        <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
-
-        <!--/////////////////////////////////ABOUT///////////////////////////////////////////////////////////////-->
-        <section>
-            <div class="cards" id="aboutCards">
-                <!--/////////////////////Profile picture///////////////////////////////////-->
-                <div class="card">
-                    <div class="card-body">
-                        <div class="row d-sm-inline-flex">
-                            <div class="col profile">
-                                <img src="./images/profile_image.jpg"  alt="profile image">
-                                <h2 style="color: rgb(202, 189, 171);">Brian Mulwa</h2>
-                                <p>UX/UI Designer, Computer Software Specialist and Programmer</p>
-                            </div>
-                            <div class="col text-light text-center rounded-3 offset-1 w-auto">
-                                <div class="text-light bg-light" data-iframe-width="150" data-iframe-height="270" data-share-badge-id="99b18d80-3ee0-4616-93c4-b7157550d8cc" data-share-badge-host="https://www.credly.com" >
-                                        <div class="bg-light bg-opacity-50">
-
-                                        </div>
-                                </div>
-                                <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-              
-                <!--///////////////////Professional Summary////////////////////////////////-->
-                <div class="card">
-                    <a><h2>Professional Summary</h2></a>
-                    <p style="color: rgb(202, 189, 171);">
-                        Self-motivated Computer Technician with
-                        background in mobile and web applications
-                        development, operating systems deployment,
-                        network design and implementation, CyberSecurity.
-                        Keen interest in trending technologies in mobile
-                        devices, operating systems and network
-                        technologies. Determined employee with over [1]
-                        year of system upgrade and network component
-                        installation experience. Highly knowledgeable in
-                        demonstrating software features to employees.            
-                    </p>
-                </div>
-                <!--//////////////////////Work History/////////////////////////////-->
-                <div class="card">
-                    <h2>Work History</h2>
-                    <!---------------------------------->
-                    <div class="row d-sm-inline-block">
-                        <div class="col w-auto">
-                            <p>
-                                2022-08 - 2022-08
-                            </p>
-                        </div>
-                        <div class="col">
-                            <div class="card-body">
-                                <h3>Polling/Counting Clerk</h3>
-                                <a class="h4" href="https://www.iebc.or.ke/" target="_blank">Independent Electoral and Boundaries Commission, Machakos, Kenya</a>
-                                <p style="color: rgb(136, 176, 209);">
-                                    • Conducted and accomplished my duties as an IEBC Elections official.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!---------------------------------->
-                    <div class="row d-sm-inline-block">
-                        <div class="col w-auto">
-                            <p>
-                                2021-09 - 2022-01
-                            </p>
-                        </div>
-                        <div class="col">
-                            <div class="card-body">
-                                <h3>ICT Technician (Intern)</h3>
-                                <a class="h4" href="http://www.ku.ac.ke/" target="_blank">Kenyatta University (Main Campus), Nairobi, Kenya</a>
-                                <p style="color: rgb(136, 176, 209);">                                    
-                                    <ul class="default-text-color-p">
-                                        <li>Set up and maintained user accounts and client
-                                            access.
-                                        </li>
-                                        <li>
-                                            Used diagnostic tools to identify hardware
-                                            failures and replace roughly 10 non-functional
-                                            components. 
-                                        </li>
-                                        <li>
-                                            Tested and installed roughly 7 motherboards,
-                                            processors and 3 graphics cards on desktops
-                                            and laptops for corporate staff.
-                                        </li>
-                                        <li>
-                                            Assessed students' needs and coordinated with
-                                            support groups to service students.
-                                        </li>
-                                        <li>
-                                            Patiently walked individuals through basic
-                                            troubleshooting tasks.
-                                        </li>
-                                        <li>
-                                            Refurbished PC systems and peripherals such as
-                                            approximately 50 monitors, networking
-                                            equipment, 10 printers and more.
-                                        </li>
-                                        <li>
-                                            Imaged and prepared over 100 computers for
-                                            integration into company networks and systems.
-                                        </li>
-                                    </ul>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!---------------------------------->
-                    <div class="row d-sm-inline-block">
-                        <div class="col w-auto">
-                            <p>
-                                2020-01 - Present
-                            </p>
-                        </div>
-                        <div class="col">
-                            <div class="card-body">
-                                <h3>Web Developer</h3>
-                                <a class="h4" href="https://horizonsmw.github.io/" target="_blank">B Mulwa Designs</a>
-                                <p style="color: rgb(136, 176, 209);">                                    
-                                    <ul class="default-text-color-p">
-                                        <li>
-                                            Planned website development, converting
-                                            mockups into usable web presence with HTML,
-                                            JavaScript.
-                                        </li>
-                                        <li>
-                                            Generated web hosting presence to
-                                            accommodate specified needs and maintain
-                                            files on account.
-                                        </li>
-                                        <li>
-                                            Discussed site and app requirements with clients
-                                            to produce actionable development plans.
-                                        </li>
-                                        <li>
-                                            Coded websites using HTML, CSS, and
-                                            JavaScript languages.
-                                        </li>
-                                    </ul>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!---------------------------------->
-                    <div class="row d-sm-inline-block">
-                        <div class="col w-auto">
-                            <p>
-                                2019-07 - 2019-08
-                            </p>
-                        </div>
-                        <div class="col">
-                            <div class="card-body">
-                                <h3>Census Enumerator</h3>
-                                <a class="h4" href="https://www.knbs.or.ke/" target="_blank">Kenya National Bureau of Statistics, Machakos, Kenya</a>
-                                <p style="color: rgb(136, 176, 209);">                                    
-                                    <ul class="default-text-color-p">
-                                        <li>
-                                            Conducted and accomplished my duties as a KNBS Census Enumerator.
-                                        </li>
-                                    </ul>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!---------------------------------->
-                </div>
-                <!--//////////////////////Education/////////////////////////////-->
-                <div class="card">
-                    <h2>Education</h2>
-                    <!---------------------------------->
-                    <div class="row d-sm-inline-block">
-                        <div class="col w-auto">
-                            <p>
-                                2018-09 – 2022-07
-                            </p>
-                        </div>
-                        <div class="col">
-                            <div class="card-body">
-                                <h3>Bachelor of Science: Computer Technology</h3>
-                                <a class="h4" href="https://www.mut.ac.ke/" target="_blank">Murang'a University of Technology - Murang'a, Kenya</a>
-                                <p style="color: rgb(136, 176, 209);">
-                                    <ul>
-                                        <li class="default-text-color-p">
-                                            Awarded grades: A in OBJECT ORIENTED
-                                            PROGRAMMING, A in DATA STRUCTURES AND
-                                            ALGORITHMS, A in DESIGN AND ANALYSIS OF
-                                            ALGORITHMS, A in WEB APPLICATION
-                                            DEVELOPMENT, A in MOBILE APPLICATIONS
-                                            DEVELOPMENT, A in NETWORK SYSTEMS
-                                            ADMINISTRATION, B in DATA COMMUNICATION
-                                            TECHNOLOGIES, C in DECISION SUPPORT SYSTEMS,
-                                            B in DIGITAL ELECTRONICS.
-                                        </li>
-                                        <li class="default-text-color-p">
-                                            Completed professional development in
-                                            "ENHNACED WINDOWS 10 OPERATING SYSTEM
-                                            IMAGE FOR DEVELOPERS"
-                                        </li>
-                                    </ul>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!---------------------------------->
-                    <div class="row d-sm-inline-block">
-                        <div class="col w-auto">
-                            <p>
-                                2022-06 - 2022-07
-                            </p>
-                        </div>
-                        <div class="col">
-                            <div class="card-body">
-                                <h3>Certificate in Introduction to Cybersecurity: Cybersecurity</h3>
-                                <a class="h4" href="#" target="_blank">Cisco Networking Academy (Kenyatta University) - Nairobi, Kenya</a>
-                                <p style="color: rgb(136, 176, 209);">
-                                    <ul>
-                                        <li class="default-text-color-p">
-                                            Awarded Certificate of Course Completion, for
-                                            completing the Cisco Networking Academy®
-                                            Introduction to Cybersecurity course, and
-                                            demonstrating the ability to explain the
-                                            following:
-                                            <ul>
-                                                <li>Global implications of cyber threats</li>
-                                                <li>Ways in which networks are vulnerable to attack</li>
-                                                <li>Impact of cyber-attacks on industries</li>
-                                                <li>Cisco's approach to threat detection and defense</li>
-                                                <li>Why cybersecurity is a growing profession</li>
-                                                <li>Opportunities available for pursuing network security certifications</li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!---------------------------------->
-                    <div class="row d-sm-inline-block">
-                        <div class="col w-auto">
-                            <p>
-                                2018-01 - 2018-05
-                            </p>
-                        </div>
-                        <div class="col">
-                            <div class="card-body">
-                                <h3>Certificate in Computer Packages: Computing</h3>
-                                <a class="h4" href="#" target="_blank">Machakos Institute of Technology - Machakos, Kenya</a>
-                                <p style="color: rgb(136, 176, 209);">
-                                    <ul>
-                                        <li class="default-text-color-p">
-                                            Awarded Distinction in Computer Packages, i.e.,
-                                            Microsoft Word, Microsoft Excel, Microsoft
-                                            PowerPoint, Microsoft Access, Microsoft Publisher;
-                                            and typing.
-                                        </li>
-                                    </ul>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!---------------------------------->
-                    <div class="row d-sm-inline-block">
-                        <div class="col w-auto">
-                            <p>
-                                2014-02 - 2017-11
-                            </p>
-                        </div>
-                        <div class="col">
-                            <div class="card-body">
-                                <h3>Kenya Certificate of Secondary Education</h3>
-                                <a class="h4" href="#" target="_blank">Mumbuni Boys' School - Machakos, Kenya</a>
-                                <p style="color: rgb(136, 176, 209);">
-                                    <ul>
-                                        <li class="default-text-color-p">
-                                            Member of WildLife Club
-                                        </li>
-                                        <li class="default-text-color-p">
-                                            Member of Science and Engineering Club
-                                        </li>
-                                        <li class="default-text-color-p">
-                                            Awarded 1st Runner-up in County Science and
-                                            Engineering Fair.
-                                        </li>
-                                        <li class="default-text-color-p">
-                                            Attained a mean grade of B- in Kenya Certificate
-                                            of Secondary Education, with distinctions in
-                                            Mathematics and Physics.
-                                        </li>
-                                    </ul>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!---------------------------------->
-                </div>
-                <!--//////////////////Certifications/////////////////////////////////-->
-                <div class="card">
-                    <h2>Certifications</h2>
                     <div class="col">
-                        <ol>
-                            <li class="h2 default-text-color-p">
-                                <div class="row d-sm-inline-block">
-                                    <div class="col w-auto">
-                                        <p class="color-blue">
-                                            2022-07
-                                        </p>
-                                    </div>
-                                    <div class="col">
-                                        <p class="h3 default-text-color-p">
-                                            Certificate of Appreciation – Murang’a University of Technology Catholic Action
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <!--------------------------->
-                            <li class="h2 default-text-color-p">
-                                <div class="row d-sm-inline-block">
-                                    <div class="col w-auto">
-                                        <p class="color-blue">
-                                            2022-07
-                                        </p>
-                                    </div>
-                                    <div class="col">
-                                        <p class="h3 default-text-color-p">
-                                            Certificate of Course Completion, Introduction to Cybersecurity – Kenyatta University
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <!--------------------------->
-                            <li class="h2 default-text-color-p">
-                                <div class="row d-sm-inline-block">
-                                    <div class="col w-auto">
-                                        <p class="color-blue">
-                                            2018-05
-                                        </p>
-                                    </div>
-                                    <div class="col">
-                                        <p class="h3 default-text-color-p">
-                                            Certificate in Computer Packages – Machakos Institute of Technology
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <!--------------------------->
-                            <li class="h2 default-text-color-p">
-                                <div class="row d-sm-inline-block">
-                                    <div class="col w-auto">
-                                        <p class="color-blue">
-                                            2017-12
-                                        </p>
-                                    </div>
-                                    <div class="col">
-                                        <p class="h3 default-text-color-p">
-                                            Kenya Certificate of Secondary Education – Mumbuni Boys’ School
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <!--------------------------->
-                            <li class="h2 default-text-color-p">
-                                <div class="row d-sm-inline-block">
-                                    <div class="col w-auto">
-                                        <p class="color-blue">
-                                            2016-03
-                                        </p>
-                                    </div>
-                                    <div class="col">
-                                        <p class="h3 default-text-color-p">
-                                            Certificate of Excellence – Kenya Science and Engineering Fair (Machakos Sub County)
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <!--------------------------->
-                        </ol>
+                        <div class="card-body">
+                            <h3>Technical Support (IT)</h3>
+                            <a class="h4" href="#" target="_blank">Trailmycar Solutions LTD, Nairobi, Kenya</a>
+                            <p style="color: rgb(136, 176, 209);">
+                                Key responsibilities:
+                            <ul style="color: rgb(136, 176, 209);">
+                                <li>Providing technical support to the office staff and to remote clients over the
+                                    phone. This included assisting office staff in setting up and using ICT equipment
+                                    safely and effectively, taking clients through setting up and using the company's
+                                    online services and troubleshooting and resolving issues with our online services
+                                    remotely.</li>
+                                <li>Maintaining ICT equipment through routine servicing, attending to repairs and
+                                    installing upgrades.</li>
+                            </ul>
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <!--///////////////////Interests/////////////////////////////////-->
-                <div class="card">
-                    <h2>Interests</h2>
-                    <p class="default-text-color-p">
-                        Operating Systems, Software Development, Beta
-                        Software, Motorsports, Mobile Devices, Android,
-                        Linux, Bash, Technology, Networks
-                    </p>
+                <!---------------------------------->
+                <!---------------------------------->
+                <div class="row d-sm-inline-block">
+                    <div class="col w-auto">
+                        <p>
+                            2022-08 - 2022-08
+                        </p>
+                    </div>
+                    <div class="col">
+                        <div class="card-body">
+                            <h3>Polling/Counting Clerk</h3>
+                            <a class="h4" href="https://www.iebc.or.ke/" target="_blank">Independent Electoral and
+                                Boundaries Commission, Machakos, Kenya</a>
+                            <p style="color: rgb(136, 176, 209);">
+                            <ul style="color: rgb(136, 176, 209);">
+                                <li>Conducted and accomplished my duties as an IEBC Elections official.</li>
+                                <li>Ensured safety of staff, voters, and equipment used in the election process.</li>
+                                <li>Observed all regulations set by IEBC and any other entity concerned with free
+                                    and fair elections.</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <!--///////////////////Hobbies/////////////////////////////////-->
-                <div class="card">
-                    <h2>Hobbies</h2>
-                    <p class="default-text-color-p">
-                        I enjoy Reading Technology blogs to stay informed
-                        on the latest on trends on mobile devices, wearables
-                        and smart devices. I am very enthusiastic about
-                        Operating Systems. I love testing different operating
-                        systems ranging from the different flavors of Linux
-                        including the various assemblies of Android and also
-                        custom builds of windows. I also spent a significant
-                        amount of my free time testing different software on
-                        Linux, Windows and Android. When I need to stretch my muscles, I cycle. I am also an avid PC Gamer.
-                    </p>
+                <!---------------------------------->
+                <div class="row d-sm-inline-block">
+                    <div class="col w-auto">
+                        <p>
+                            2021-09 - 2022-01
+                        </p>
+                    </div>
+                    <div class="col">
+                        <div class="card-body">
+                            <h3>ICT Technician (Intern)</h3>
+                            <a class="h4" href="http://www.ku.ac.ke/" target="_blank">Kenyatta University (Main Campus),
+                                Nairobi, Kenya</a>
+                            <p style="color: rgb(136, 176, 209);">
+                            <ul class="default-text-color-p">
+                                <li>Set up and maintained user accounts and client
+                                    access.
+                                </li>
+                                <li>
+                                    Used diagnostic tools to identify hardware
+                                    failures and replace roughly 10 non-functional
+                                    components.
+                                </li>
+                                <li>
+                                    Tested and installed roughly 7 motherboards,
+                                    processors and 3 graphics cards on desktops
+                                    and laptops for corporate staff.
+                                </li>
+                                <li>
+                                    Assessed students' needs and coordinated with
+                                    support groups to service students.
+                                </li>
+                                <li>
+                                    Patiently walked individuals through basic
+                                    troubleshooting tasks.
+                                </li>
+                                <li>
+                                    Refurbished PC systems and peripherals such as
+                                    approximately 50 monitors, networking
+                                    equipment, 10 printers and more.
+                                </li>
+                                <li>
+                                    Imaged and prepared over 100 computers for
+                                    integration into company networks and systems.
+                                </li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
                 </div>
-
-                <!--///////////////////Referees/////////////////////////////////-->
-                <div class="card">
-                    <h2>Referees</h2>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <th>
-                                    Name
-                                </th>
-                                <th>
-                                    Organisation
-                                </th>
-                                <th>
-                                    Contact
-                                </th>
-                            </tr>
-                            <tr class="mt-3 default-text-color-p">
-                                <td class="p-1">Mr. Isaac Owino</td>
-                                <td class="p-1">Kenyatta University</td>
-                                <td class="p-1">0727 796389</td>
-                            </tr>
-                            <tr class="mt-3 default-text-color-p">
-                                <td class="p-1">Mr. Peter Mwangi</td>
-                                <td class="p-1">Murang’a University of Technology</td>
-                                <td class="p-1">0726 445415</td>
-                            </tr>
-                            <tr class="mt-3 default-text-color-p">
-                                <td class="p-1">Dr. Aaron Oirere</td>
-                                <td class="p-1">Murang’a University of Technology</td>
-                                <td class="p-1">0718 418404</td>
-                            </tr>
-                        </tbody>                        
-                    </table>                    
+                <!---------------------------------->
+                <div class="row d-sm-inline-block">
+                    <div class="col w-auto">
+                        <p>
+                            2020-01 - Present
+                        </p>
+                    </div>
+                    <div class="col">
+                        <div class="card-body">
+                            <h3>Web Developer</h3>
+                            <a class="h4" href="https://horizonsmw.github.io/" target="_blank">B Mulwa Designs</a>
+                            <p style="color: rgb(136, 176, 209);">
+                            <ul class="default-text-color-p">
+                                <li>
+                                    Planned website development, converting
+                                    mockups into usable web presence with HTML,
+                                    JavaScript.
+                                </li>
+                                <li>
+                                    Generated web hosting presence to
+                                    accommodate specified needs and maintain
+                                    files on account.
+                                </li>
+                                <li>
+                                    Discussed site and app requirements with clients
+                                    to produce actionable development plans.
+                                </li>
+                                <li>
+                                    Coded websites using HTML, CSS, and
+                                    JavaScript languages.
+                                </li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
                 </div>
-
-                <!--////////////////////////////////////////////////////-->
+                <!---------------------------------->
+                <div class="row d-sm-inline-block">
+                    <div class="col w-auto">
+                        <p>
+                            2019-07 - 2019-08
+                        </p>
+                    </div>
+                    <div class="col">
+                        <div class="card-body">
+                            <h3>Census Enumerator</h3>
+                            <a class="h4" href="https://www.knbs.or.ke/" target="_blank">Kenya National Bureau of
+                                Statistics, Machakos, Kenya</a>
+                            <p style="color: rgb(136, 176, 209);">
+                            <ul class="default-text-color-p">
+                                <li>
+                                    Conducted and accomplished my duties as a KNBS Census Enumerator.
+                                </li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!---------------------------------->
             </div>
-        </section>
-       
-        <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
-
-         <!--/////////////////////////////////servicesCards/////////////////////////////////-->
-         <section>
-            <div class="cards" id="servicesCards">
-                <div class="card">
-                    <a><h2>Services</h2></a>
-                    <p style="color: rgb(202, 189, 171);">
-                        <ul>
-                            <li>
-                                CyberSecurity Consultancy
-                                <p class="default-text-color-p">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis consequatur, error eligendi expedita iste sed.
-                                </p>
-                            </li>
-                            <li>
-                                Web Development
-                                <p class="default-text-color-p">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, earum!
-                                </p>
-                            </li>
-                            <li>
-                                Graphics Design
-                                <p class="default-text-color-p">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, earum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quam sapiente iure atque libero mollitia!
-                                </p>
-                            </li>
-                        
-                        </ul>
-                    </p>
+            <!--//////////////////////Education/////////////////////////////-->
+            <div class="card">
+                <h2>Education</h2>
+                <!---------------------------------->
+                <div class="row d-sm-inline-block">
+                    <div class="col w-auto">
+                        <p>
+                            2018-09 – 2022-07
+                        </p>
+                    </div>
+                    <div class="col">
+                        <div class="card-body">
+                            <h3>Bachelor of Science: Computer Technology</h3>
+                            <a class="h4" href="https://www.mut.ac.ke/" target="_blank">Murang'a University of
+                                Technology - Murang'a, Kenya</a>
+                            <p style="color: rgb(136, 176, 209);">
+                            <ul>
+                                <li class="default-text-color-p">
+                                    Graduated with Second Class (UPPER DIVISION)
+                                </li>
+                                <li class="default-text-color-p">
+                                    Completed professional development in
+                                    "ENHNACED WINDOWS 10 OPERATING SYSTEM
+                                    IMAGE FOR DEVELOPERS"
+                                </li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!---------------------------------->
+                <div class="row d-sm-inline-block">
+                    <div class="col w-auto">
+                        <p>
+                            2022-06 - 2022-07
+                        </p>
+                    </div>
+                    <div class="col">
+                        <div class="card-body">
+                            <h3>Certificate in Introduction to Cybersecurity: Cybersecurity</h3>
+                            <a class="h4" href="#" target="_blank">Cisco Networking Academy (Kenyatta University) -
+                                Nairobi, Kenya</a>
+                            <p style="color: rgb(136, 176, 209);">
+                            <ul>
+                                <li class="default-text-color-p">
+                                    Awarded Certificate of Course Completion, for
+                                    completing the Cisco Networking Academy®
+                                    Introduction to Cybersecurity course, and
+                                    demonstrating the ability to explain the
+                                    following:
+                                    <ul>
+                                        <li>Global implications of cyber threats</li>
+                                        <li>Ways in which networks are vulnerable to attack</li>
+                                        <li>Impact of cyber-attacks on industries</li>
+                                        <li>Cisco's approach to threat detection and defense</li>
+                                        <li>Why cybersecurity is a growing profession</li>
+                                        <li>Opportunities available for pursuing network security certifications</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!---------------------------------->
+                <div class="row d-sm-inline-block">
+                    <div class="col w-auto">
+                        <p>
+                            2018-01 - 2018-05
+                        </p>
+                    </div>
+                    <div class="col">
+                        <div class="card-body">
+                            <h3>Certificate in Computer Packages: Computing</h3>
+                            <a class="h4" href="#" target="_blank">Machakos Institute of Technology - Machakos,
+                                Kenya</a>
+                            <p style="color: rgb(136, 176, 209);">
+                            <ul>
+                                <li class="default-text-color-p">
+                                    Awarded Distinction in Computer Packages, i.e.,
+                                    Microsoft Word, Microsoft Excel, Microsoft
+                                    PowerPoint, Microsoft Access, Microsoft Publisher;
+                                    and typing.
+                                </li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!---------------------------------->
+                <div class="row d-sm-inline-block">
+                    <div class="col w-auto">
+                        <p>
+                            2014-02 - 2017-11
+                        </p>
+                    </div>
+                    <div class="col">
+                        <div class="card-body">
+                            <h3>Kenya Certificate of Secondary Education</h3>
+                            <a class="h4" href="#" target="_blank">Mumbuni Boys' School - Machakos, Kenya</a>
+                            <p style="color: rgb(136, 176, 209);">
+                            <ul>
+                                <li class="default-text-color-p">
+                                    Member of WildLife Club
+                                </li>
+                                <li class="default-text-color-p">
+                                    Member of Science and Engineering Club
+                                </li>
+                                <li class="default-text-color-p">
+                                    Awarded 1st Runner-up in County Science and
+                                    Engineering Fair.
+                                </li>
+                                <li class="default-text-color-p">
+                                    Attained a mean grade of B- in Kenya Certificate
+                                    of Secondary Education, with distinctions in
+                                    Mathematics and Physics.
+                                </li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!---------------------------------->
+            </div>
+            <!--//////////////////Certifications/////////////////////////////////-->
+            <div class="card">
+                <h2>Certifications</h2>
+                <div class="col">
+                    <ol>
+                        <li class="h2 default-text-color-p">
+                            <div class="row d-sm-inline-block">
+                                <div class="col w-auto">
+                                    <p class="color-blue">
+                                        2022-07
+                                    </p>
+                                </div>
+                                <div class="col">
+                                    <p class="h3 default-text-color-p">
+                                        Certificate of Appreciation – Murang’a University of Technology Catholic Action
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <!--------------------------->
+                        <li class="h2 default-text-color-p">
+                            <div class="row d-sm-inline-block">
+                                <div class="col w-auto">
+                                    <p class="color-blue">
+                                        2022-07
+                                    </p>
+                                </div>
+                                <div class="col">
+                                    <p class="h3 default-text-color-p">
+                                        Certificate of Course Completion, Introduction to Cybersecurity – Kenyatta
+                                        University
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <!--------------------------->
+                        <li class="h2 default-text-color-p">
+                            <div class="row d-sm-inline-block">
+                                <div class="col w-auto">
+                                    <p class="color-blue">
+                                        2018-05
+                                    </p>
+                                </div>
+                                <div class="col">
+                                    <p class="h3 default-text-color-p">
+                                        Certificate in Computer Packages – Machakos Institute of Technology
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <!--------------------------->
+                        <li class="h2 default-text-color-p">
+                            <div class="row d-sm-inline-block">
+                                <div class="col w-auto">
+                                    <p class="color-blue">
+                                        2017-12
+                                    </p>
+                                </div>
+                                <div class="col">
+                                    <p class="h3 default-text-color-p">
+                                        Kenya Certificate of Secondary Education – Mumbuni Boys’ School
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <!--------------------------->
+                        <li class="h2 default-text-color-p">
+                            <div class="row d-sm-inline-block">
+                                <div class="col w-auto">
+                                    <p class="color-blue">
+                                        2016-03
+                                    </p>
+                                </div>
+                                <div class="col">
+                                    <p class="h3 default-text-color-p">
+                                        Certificate of Excellence – Kenya Science and Engineering Fair (Machakos Sub
+                                        County)
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <!--------------------------->
+                    </ol>
                 </div>
             </div>
-        </section>
-        <!---------------////////services//////////////////////////////////////////////////////////////////////-->
-
-        <!--/////////////////////////////////CONTACT/////////////////////////////////-->
-        <section>
-            <div class="cards overflow-hidden" id="contactsCards">
-                <div class="card">
-                    <h1>Brian Mulwa</h1>
-                        <p class="h2">Phone: +254 711 990 838</p>
-                        <p class="h4"><a href="mailto:mw711990838@gmail.com">Email: mw711990838@gmail.com</a></p>
-                </div>
+            <!--///////////////////Interests/////////////////////////////////-->
+            <div class="card">
+                <h2>Interests</h2>
+                <p class="default-text-color-p">
+                    Operating Systems, Software Development, Beta
+                    Software, Motorsports, Mobile Devices, Android,
+                    Linux, Bash, Technology, Networks
+                </p>
             </div>
-        </section>
-        <!---------------////////CONATCTS//////////////////////////////////////////////////////////////////////-->
+            <!--///////////////////Hobbies/////////////////////////////////-->
+            <div class="card">
+                <h2>Hobbies</h2>
+                <p class="default-text-color-p">
+                    I enjoy Reading Technology blogs to stay informed
+                    on the latest on trends on mobile devices, wearables
+                    and smart devices. I am very enthusiastic about
+                    Operating Systems. I love testing different operating
+                    systems ranging from the different flavors of Linux
+                    including the various assemblies of Android and also
+                    custom builds of windows. I also spent a significant
+                    amount of my free time testing different software on
+                    Linux, Windows and Android. When I need to stretch my muscles, I cycle. I am also an avid PC Gamer.
+                </p>
+            </div>
 
-   
-        <script>
-            function openNav() {
-                document.getElementById("menu").style.display = "block";
-            }
-            
-            function closeNav() {
-                document.getElementById("menu").style.display = "none";
-            }
+            <!--///////////////////Referees/////////////////////////////////-->
+            <div class="card">
+                <h2>Referees</h2>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>
+                                Name
+                            </th>
+                            <th>
+                                Organisation
+                            </th>
+                            <th>
+                                Contact
+                            </th>
+                        </tr>
+                        <tr class="mt-3 default-text-color-p">
+                            <td class="p-1">Mr. Isaac Owino</td>
+                            <td class="p-1">Kenyatta University</td>
+                            <td class="p-1">0727 796389</td>
+                        </tr>
+                        <tr class="mt-3 default-text-color-p">
+                            <td class="p-1">Mr. Peter Mwangi</td>
+                            <td class="p-1">Murang’a University of Technology</td>
+                            <td class="p-1">0726 445415</td>
+                        </tr>
+                        <tr class="mt-3 default-text-color-p">
+                            <td class="p-1">Dr. Aaron Oirere</td>
+                            <td class="p-1">Murang’a University of Technology</td>
+                            <td class="p-1">0718 418404</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
-            function tour(){
-                document.getElementById("tourCards").style.display = "block";
-                document.getElementById("homeContent").style.display = "none";
-                document.getElementById("aboutCards").style.display = "none";
-                document.getElementById("contactsCards").style.display = "none";
-                document.getElementById("servicesCards").style.display = "none";
-                document.getElementById("location").innerHTML = "Tour";
-                document.getElementById("menu").style.display = "none";
+            <!--////////////////////////////////////////////////////-->
+        </div>
+    </section>
 
-                console.log("tour")
-            }
-            function home(){
-                document.getElementById("tourCards").style.display = "none";
-                document.getElementById("homeContent").style.display = "block";
-                document.getElementById("location").innerHTML = "Home";
-                document.getElementById("aboutCards").style.display = "none";
-                document.getElementById("menu").style.display = "none";
-                document.getElementById("contactsCards").style.display = "none";
-                document.getElementById("servicesCards").style.display = "none";
+    <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
-                console.log("Home")
-            }
+    <!--/////////////////////////////////servicesCards/////////////////////////////////-->
+    <section>
+        <div class="cards" id="servicesCards">
+            <div class="card">
+                <a>
+                    <h2>Services</h2>
+                </a>
+                <p style="color: rgb(202, 189, 171);">
+                <ul>
+                    <li>
+                        CyberSecurity Consultancy
+                        <p class="default-text-color-p">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis consequatur, error
+                            eligendi expedita iste sed.
+                        </p>
+                    </li>
+                    <li>
+                        Web Development
+                        <p class="default-text-color-p">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, earum!
+                        </p>
+                    </li>
+                    <li>
+                        Graphics Design
+                        <p class="default-text-color-p">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, earum! Lorem ipsum dolor sit
+                            amet, consectetur adipisicing elit. Cupiditate quam sapiente iure atque libero mollitia!
+                        </p>
+                    </li>
 
-            function about(){
-                document.getElementById("tourCards").style.display = "none";
-                document.getElementById("homeContent").style.display = "none";
-                document.getElementById("aboutCards").style.display = "block";
-                document.getElementById("location").innerHTML = "About";
-                document.getElementById("menu").style.display = "none";
-                document.getElementById("contactsCards").style.display = "none";
-                document.getElementById("servicesCards").style.display = "none";
+                </ul>
+                </p>
+            </div>
+        </div>
+    </section>
+    <!---------------////////services//////////////////////////////////////////////////////////////////////-->
 
-                console.log("About")
-            }
-            function services(){
-                document.getElementById("tourCards").style.display = "none";
-                document.getElementById("homeContent").style.display = "none";
-                document.getElementById("aboutCards").style.display = "none";
-                document.getElementById("location").innerHTML = "Services";
-                document.getElementById("menu").style.display = "none";
-                document.getElementById("servicesCards").style.display = "block";
-                document.getElementById("contactsCards").style.display = "none";
+    <!--/////////////////////////////////CONTACT/////////////////////////////////-->
+    <section>
+        <div class="cards overflow-hidden" id="contactsCards">
+            <div class="card">
+                <h1>Brian Mulwa</h1>
+                <p class="h2">Phone: <a
+                        href="https://api.whatsapp.com/send/?phone=254711990838&text&type=phone_number&app_absent=0">+254
+                        711 990 838</a> </p>
+                <p class="h4"><a href="mailto:mw711990838@gmail.com">Email: mw711990838@gmail.com</a></p>
+            </div>
+        </div>
+    </section>
+    <!---------------////////CONATCTS//////////////////////////////////////////////////////////////////////-->
 
-                console.log("Services")
-            }
 
-            function contact(){
-                document.getElementById("tourCards").style.display = "none";
-                document.getElementById("homeContent").style.display = "none";
-                document.getElementById("aboutCards").style.display = "none";
-                document.getElementById("location").innerHTML = "Contact";
-                document.getElementById("menu").style.display = "none";
-                document.getElementById("servicesCards").style.display = "none";
-                document.getElementById("contactsCards").style.display = "block";
+    <script>
+        function openNav() {
+            document.getElementById("menu").style.display = "block";
+        }
 
-                console.log("Contact")
-            }
-        </script>
-    </body>
+        function closeNav() {
+            document.getElementById("menu").style.display = "none";
+        }
+
+        function tour() {
+            document.getElementById("tourCards").style.display = "block";
+            document.getElementById("homeContent").style.display = "none";
+            document.getElementById("aboutCards").style.display = "none";
+            document.getElementById("contactsCards").style.display = "none";
+            document.getElementById("servicesCards").style.display = "none";
+            document.getElementById("location").innerHTML = "Tour";
+            document.getElementById("menu").style.display = "none";
+
+            console.log("tour")
+        }
+        function home() {
+            document.getElementById("tourCards").style.display = "none";
+            document.getElementById("homeContent").style.display = "block";
+            document.getElementById("location").innerHTML = "Home";
+            document.getElementById("aboutCards").style.display = "none";
+            document.getElementById("menu").style.display = "none";
+            document.getElementById("contactsCards").style.display = "none";
+            document.getElementById("servicesCards").style.display = "none";
+
+            console.log("Home")
+        }
+
+        function about() {
+            document.getElementById("tourCards").style.display = "none";
+            document.getElementById("homeContent").style.display = "none";
+            document.getElementById("aboutCards").style.display = "block";
+            document.getElementById("location").innerHTML = "About";
+            document.getElementById("menu").style.display = "none";
+            document.getElementById("contactsCards").style.display = "none";
+            document.getElementById("servicesCards").style.display = "none";
+
+            console.log("About")
+        }
+        function services() {
+            document.getElementById("tourCards").style.display = "none";
+            document.getElementById("homeContent").style.display = "none";
+            document.getElementById("aboutCards").style.display = "none";
+            document.getElementById("location").innerHTML = "Services";
+            document.getElementById("menu").style.display = "none";
+            document.getElementById("servicesCards").style.display = "block";
+            document.getElementById("contactsCards").style.display = "none";
+
+            console.log("Services")
+        }
+
+        function contact() {
+            document.getElementById("tourCards").style.display = "none";
+            document.getElementById("homeContent").style.display = "none";
+            document.getElementById("aboutCards").style.display = "none";
+            document.getElementById("location").innerHTML = "Contact";
+            document.getElementById("menu").style.display = "none";
+            document.getElementById("servicesCards").style.display = "none";
+            document.getElementById("contactsCards").style.display = "block";
+
+            console.log("Contact")
+        }
+    </script>
+</body>
+
 </html>
