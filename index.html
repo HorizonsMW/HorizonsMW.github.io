@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="tour.css">
+    <script type="module" src="./node_modules/md-block/md-block.js"></script>
 </head>
 
 <body>
@@ -118,8 +119,15 @@
 
             </div>
             <div class="card">
-                Content...
+                <md-block>
+                    ## Markdown Example
+                    ```
+                    Text here
+                    ```
+                </md-block>
             </div>
+
+        </div>
         </div>
     </section>
 
@@ -666,6 +674,8 @@
 
 
     <script>
+        // import {MarkdownBlock, MarkdownSpan, MarkdownElement} from "https://md-block.verou.me/md-block.js";
+        // import {MarkdownBlock, MarkdownSpan, MarkdownElement} from "md-block";
         function openNav() {
             document.getElementById("menu").style.display = "block";
         }

@@ -1,0 +1,25 @@
+{
+  "name": "horizonsmw.github.io",
+  "version": "2.0.0",
+  "description": "Personal Website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HorizonsMW/HorizonsMW.github.io.git"
+  },
+  "keywords": [
+    "HorizonsMW"
+  ],
+  "author": "Brian Mulwa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HorizonsMW/HorizonsMW.github.io/issues"
+  },
+  "homepage": "https://github.com/HorizonsMW/HorizonsMW.github.io#readme",
+  "dependencies": {
+    "md-block": "^0.0.1"
+  }
+}
