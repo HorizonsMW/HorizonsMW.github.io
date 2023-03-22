@@ -20,7 +20,8 @@ QueenBasket254 online shop, B Mulwa Designs website
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-## 💰 You can help me by Donating on [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/donate/?hosted_button_id=ZJ7765ZDCZ9LG)
+## 💰 You can help me by Donating 
+[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/donate/?hosted_button_id=ZJ7765ZDCZ9LG)
 
 
   <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
